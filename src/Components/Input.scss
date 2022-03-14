@@ -1,0 +1,57 @@
+.main-div{
+    display: flex;
+    flex-direction: row;
+    
+}
+.myInput{
+    height:40px ;
+    border: 1px solid blue;
+    border-radius: 20px;
+    padding-left: 10px;
+    width: 250px;
+    
+}
+
+
+
+.buttonPlus{
+    margin-left: 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+.circle {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    position: relative;
+  }
+  .circle::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    background-color: #fff;
+    height: 7px;
+    margin-top: -5px;
+    top: 55%;
+    left: 5px;
+    right: 5px;
+    z-index: 9;
+  }
+  .circle::before {
+    content: " ";
+    position: absolute;
+    display: block;
+    background-color: #fff;
+    width: 7px;
+    margin-left: -5px;
+    left: 55%;
+    top: 5px;
+    bottom: 5px;
+    z-index: 9;
+  }
